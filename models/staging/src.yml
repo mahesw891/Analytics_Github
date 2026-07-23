@@ -4,6 +4,6 @@ sources:
  
   - name: ANALYTICS
     database: ANALYTICS
+    schema: DATAENGINEER_TEST
     tables:
       - name: mouritech
-     
