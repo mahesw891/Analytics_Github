@@ -1,7 +1,7 @@
 {{ config
 (
     materialized='view',
-    secure='true'
+    secure=true
 ) 
 }}
 
