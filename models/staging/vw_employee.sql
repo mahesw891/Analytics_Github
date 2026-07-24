@@ -1,4 +1,9 @@
-{{ config(materialized='view') }}
+{{ config
+(
+    materialized='view',
+    secure='true'
+) 
+}}
 
 select *
 from {{ ref('employee') }}
